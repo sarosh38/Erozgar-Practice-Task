@@ -1,0 +1,25 @@
+/*Type Selector*/
+h1{
+	color: grey;
+}
+/*ID Selector*/
+#form_div{
+	vertical-align: middle;
+	text-decoration: underline;
+
+}
+/*ID Selector*/
+#shadow_heading{
+	text-shadow: 5px 5px 4px lightgrey;
+}
+/*Class Selector*/
+.para_class{
+	text-indent: 60px;
+	text-transform: capitalize;
+	letter-spacing: normal;
+}
+/*Descendent Selector*/
+#whoa_div .para_class{
+	background-color: lightblue;
+
+}
