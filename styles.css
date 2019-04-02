@@ -1,11 +1,42 @@
+#first{
+	border: 10px;
+	margin: 10px;
+
+	background-image: url("seavonne.png");
+	background-repeat: repeat-x;
+	background-attachment: scroll;
+	/*visibility: hidden;
+	display: none;*/
+}
 /*Type Selector*/
 h1{
-	color: grey;
+	color: black;
+	border: 2px solid grey;
+	padding: 10px;
+	margin: 10px;
+	/*display: inline;
+	background-image: url("badge.png");
+	background-repeat: repeat-x;*/
+
+}
+a:hover{
+	color: red;
+}
+a:link{
+	text-decoration: none;
+}
+a{
+	font-size: 30px;
+}
+ol{
+	list-style-type: lower-roman;
+	list-style-image: url("badge.png");
 }
 /*ID Selector*/
 #form_div{
 	vertical-align: middle;
 	text-decoration: underline;
+	
 
 }
 /*ID Selector*/
@@ -20,9 +51,10 @@ h1{
 }
 /*Descendent Selector*/
 #whoa_div .para_class{
-	background-color: lightblue;
+	background-color: lightgreen;
 
 }
 span{
-	color: green;
+	color: orange;
+	/*display: block;*/
 }
